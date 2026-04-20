@@ -1,61 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PIXEL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header><h1>Welcome to PIXEL ART Editor</h1></header>
-  
-  <main>
-    <div>
-        <div class="about_pixel"><P>KAKOI-TO TEXT O MOIEM PIXEL'E</P></div>
-        <div class = "hello_btn"><a href="" target="">Start editing</a></div>
+    <div class="tools">
+        <div class="change_color"><input type="color" value="color" class="pencolor"></div>
+        <div class="rubber"><input type="button" value="rubber"></div>
+        <div class="fill"><input type="button" value="fill"></div>
     </div>
-    <div>
-        <div class="tools">
-            <div class="numbers">
-                <div>
-                    <p>Shape Width <br> <span>(from 10 to 50)</span></p>
-                    <input type="number" value="20" class="shapeW">
-                    <input type="number" value="20" class="shapeH">
-                </div>
-            </div>
-
-            <div class="colors">
-                <div>
-                    <p>Background Color</p>
-                    <input type="color" value="" class="backColor">
-                </div>
-    
-                <div>
-                    <p>Shape Color</p>
-                    <input type="color" value="" class="blockColor">
-                </div>
-            </div>
-
-            <div class="buttons">
-                <input type="button" value="Generate ws" class="generate">
-        
-                <input type="button" value="Download image" class="download">
-        
-                <input type="button" value="Clear ws" class="clear">
-        
-                <input type="button" value="Delete ws" class="delete">
-            </div>
-            <canvas></canvas>
-        </div>
-    </div>
-  </main>
-  
-  <footer>
-    <div class = "communicate">
-      <p>4toto dl9 kamynikacii</p>
-      <a href="" target="">...</a>
-      <a href="" target="">...</a>
-    </div>
-    <div class = "copyrate"><p>copyrate<p></div>
-  </footer>
+    <div class="fields"></div>
 </body>
 </html>
